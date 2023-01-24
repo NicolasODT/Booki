@@ -10,6 +10,7 @@
   transition: 0.2s;
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "raleway", sans-serif;
   max-width: 1400px;
@@ -126,7 +127,7 @@ nav ul li a:hover {
   cursor: pointer;
 }
 .filtre .filtre-card h2 {
-  font-size: 17px;
+  font-size: clamp(11px, 2.3vw, 17px);
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -226,11 +227,11 @@ nav ul li a:hover {
 }
 
 .card-text h3 {
-  font-size: 15px;
+  font-size: clamp(15px, 1.4vw, 16px);
   font-weight: 700;
 }
 .card-text p {
-  font-size: 13px;
+  font-size: clamp(13px, 1.6vw, 14px);
 }
 
 .card-populaire .card-text {
@@ -257,8 +258,7 @@ nav ul li a:hover {
 .populaire h2 {
   display: flex;
   justify-content: space-between;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-size: clamp(20px, 2vw, 22px);
 }
 
 .populaire h2 > i {
@@ -445,9 +445,6 @@ footer {
   }
   .filtre .filtre-card {
     width: 45%;
-  }
-  .filtre .filtre-card h2 {
-    font-size: 11px;
   }
 
   /*herbergement marseille */
