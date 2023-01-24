@@ -6,11 +6,6 @@
   --tertiaire: #f2f2f2;
 }
 
-* {
-  transition: 0.2s;
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: "raleway", sans-serif;
   max-width: 1400px;
