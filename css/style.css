@@ -45,7 +45,7 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #000000;
+  color: #000;
   padding: 27px;
   font-weight: 500;
   border-top: 3px solid transparent;
@@ -82,7 +82,7 @@ nav ul li a:hover {
 }
 
 .search input::placeholder {
-  color: black;
+  color: #000;
 }
 
 .search input:focus {
@@ -202,14 +202,14 @@ nav ul li a:hover {
   height: 200px;
   width: 28%;
   border-radius: 20px;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 .flex-marseille .card-marseille img {
   height: 125px;
   width: 100%;
-  border: 5px solid #ffffff;
-  border-radius: 20px 20px 0px 0px;
+  border: 5px solid #fff;
+  border-radius: 20px 20px 0 0;
   object-fit: cover;
   user-select: none;
 }
@@ -266,8 +266,8 @@ nav ul li a:hover {
   height: 145px;
   width: 85%;
   border-radius: 20px;
-  border: 5px solid #ffffff;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  border: 5px solid #fff;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 .flex-populaire .card-populaire img {
@@ -281,7 +281,7 @@ nav ul li a:hover {
 /* activiter marseille */
 
 #activite h2 {
-  margin: 40px 0 20px 0;
+  margin: 40px 0 20px;
 }
 
 .flex-activite {
@@ -292,7 +292,7 @@ nav ul li a:hover {
 .card-activite {
   width: 100%;
   border-radius: 20px;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 .flex-activite .card-activite img {
@@ -328,14 +328,14 @@ footer {
 
 .card-footer a {
   display: block;
-  color: #000000;
+  color: #000;
   text-decoration: none;
   margin-top: 16px;
 }
 
 @media screen and (max-width: 992px) {
   .filtre {
-    gap: 0px;
+    gap: 0;
     justify-content: space-between;
   }
   #marseille {
@@ -454,7 +454,7 @@ footer {
   }
 
   .populaire {
-    border-radius: 0px;
+    border-radius: 0;
   }
   .flex-populaire {
     flex-direction: column;
@@ -481,7 +481,7 @@ footer {
 
   #activite h2 {
     width: 85%;
-    margin: 70px auto 20px auto;
+    margin: 70px auto 20px;
   }
 
   .flex-activite {
