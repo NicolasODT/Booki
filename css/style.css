@@ -24,6 +24,10 @@ h2 ~ p {
   margin-top: 12px;
 }
 
+[class*="card"] {
+  cursor: pointer;
+}
+
 /* HEADER NAV BAR LOGO */
 
 .logo {
@@ -263,7 +267,7 @@ nav ul li a:hover {
 .flex-populaire .card-populaire {
   display: flex;
   background: #fff;
-  height: 145px;
+  height: clamp(135px, 1vw, 145px);
   width: 85%;
   border-radius: 20px;
   border: 5px solid #fff;
