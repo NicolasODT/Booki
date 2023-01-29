@@ -24,6 +24,11 @@ h2 ~ p {
   margin-top: 12px;
 }
 
+img {
+  object-fit: cover;
+  user-select: none;
+}
+
 [class*="card"] {
   cursor: pointer;
 }
@@ -202,6 +207,7 @@ nav ul li a:hover {
 }
 
 .flex-marseille .card-marseille {
+  position: relative;
   background: #fff;
   height: 200px;
   width: 28%;
@@ -214,9 +220,10 @@ nav ul li a:hover {
   width: 100%;
   border: 5px solid #fff;
   border-radius: 20px 20px 0 0;
-  object-fit: cover;
-  user-select: none;
 }
+
+/* card text */
+
 .card-text {
   display: flex;
   flex-direction: column;
@@ -267,6 +274,7 @@ nav ul li a:hover {
 .flex-populaire .card-populaire {
   display: flex;
   background: #fff;
+  position: relative;
   height: clamp(135px, 1vw, 145px);
   width: 85%;
   border-radius: 20px;
@@ -278,8 +286,6 @@ nav ul li a:hover {
   height: 100%;
   width: 38%;
   border-radius: 20px 0 0 20px;
-  object-fit: cover;
-  user-select: none;
 }
 
 /* activiter marseille */
@@ -303,8 +309,6 @@ nav ul li a:hover {
   height: 88%;
   width: 100%;
   border-radius: 20px 20px 0 0;
-  object-fit: cover;
-  user-select: none;
 }
 .flex-activite .card-activite:nth-child(3) {
   filter: brightness(120%) contrast(80%);
